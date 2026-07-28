@@ -1,0 +1,243 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Jiyanshu Singh | Data Science & ML</title>
+    <link href="https://cdn.jsdelivr.net/npm/bootstrap@5.3.3/dist/css/bootstrap.min.css" rel="stylesheet">
+    <link rel="stylesheet" href="https://cdn.jsdelivr.net/npm/bootstrap-icons@1.11.3/font/bootstrap-icons.min.css">
+    <link rel="stylesheet" href="assets/css/style.css">
+</head>
+<body>
+    <nav class="navbar navbar-expand-lg fixed-top" id="mainNav">
+        <div class="container">
+            <a class="navbar-brand fw-bold" href="#">Jiyanshu Singh</a>
+            <button class="navbar-toggler" type="button" data-bs-toggle="collapse" data-bs-target="#navbarNav">
+                <span class="navbar-toggler-icon"></span>
+            </button>
+            <div class="collapse navbar-collapse" id="navbarNav">
+                <ul class="navbar-nav ms-auto">
+                    <li class="nav-item"><a class="nav-link" href="#about">About</a></li>
+                    <li class="nav-item"><a class="nav-link" href="#projects">Projects</a></li>
+                    <li class="nav-item"><a class="nav-link" href="#skills">Skills</a></li>
+                    <li class="nav-item"><a class="nav-link" href="#resume">Resume</a></li>
+                    <li class="nav-item"><a class="nav-link" href="#contact">Contact</a></li>
+                </ul>
+            </div>
+        </div>
+    </nav>
+
+    <section id="hero" class="d-flex align-items-center">
+        <div class="container text-center">
+            <h1 class="display-3 fw-bold">Jiyanshu Singh</h1>
+            <p class="lead mb-1">B.Tech Biotechnology @ NIT Rourkela</p>
+            <p class="lead mb-4">Data Science & Machine Learning</p>
+            <div class="d-flex justify-content-center gap-3">
+                <a href="#projects" class="btn btn-primary btn-lg"><i class="bi bi-folder me-2"></i>View Projects</a>
+                <a href="#resume" class="btn btn-outline-light btn-lg"><i class="bi bi-download me-2"></i>Resume</a>
+            </div>
+            <div class="hero-links mt-4">
+                <a href="mailto:jiyanshusingh1@gmail.com" class="text-white me-3" target="_blank"><i class="bi bi-envelope-fill fs-4"></i></a>
+                <a href="https://github.com/jiyanshusingh" class="text-white me-3" target="_blank"><i class="bi bi-github fs-4"></i></a>
+                <a href="https://linkedin.com/in/jiyanshusingh" class="text-white" target="_blank"><i class="bi bi-linkedin fs-4"></i></a>
+            </div>
+        </div>
+    </section>
+
+    <section id="about" class="section">
+        <div class="container">
+            <h2 class="section-title">About Me</h2>
+            <div class="row justify-content-center">
+                <div class="col-lg-8">
+                    <p class="lead">I'm a B.Tech Biotechnology student at NIT Rourkela with a strong passion for data science, machine learning, and statistical analysis. I combine engineering discipline with data-driven problem solving.</p>
+                    <p>In my recent internship at Digitaaztrans Technologies, I built ML trading systems deployed on Google Cloud. I'm experienced in Python, SQL, Docker, and cloud deployment, with a focus on rigorous statistical validation — walk-forward testing, Bayesian methods, and power analysis.</p>
+                    <p>I'm actively looking for opportunities in data science, analytics, and ML engineering where I can apply statistical thinking to real-world problems.</p>
+                </div>
+            </div>
+        </div>
+    </section>
+
+    <section id="projects" class="section bg-dark-section">
+        <div class="container">
+            <h2 class="section-title">Projects</h2>
+            <div class="row g-4">
+                <div class="col-lg-4">
+                    <div class="card project-card h-100">
+                        <div class="card-body d-flex flex-column">
+                            <div class="project-icon"><i class="bi bi-bar-chart"></i></div>
+                            <h5 class="card-title">A/B Testing Dashboard</h5>
+                            <p class="card-text text-muted small flex-grow-1">Multi-page statistical analysis web app that analyzes experiment data and recommends Launch / Iterate / Kill using p-values, Bayesian Monte Carlo, power analysis, and sample size calculations. Generates consulting-grade PDF reports.</p>
+                            <div class="mb-3">
+                                <span class="tech-badge">FastAPI</span>
+                                <span class="tech-badge">Bootstrap 5</span>
+                                <span class="tech-badge">SciPy</span>
+                                <span class="tech-badge">Docker</span>
+                                <span class="tech-badge">Render</span>
+                            </div>
+                            <div class="mt-auto d-flex gap-2">
+                                <a href="https://ab-testing-dashboard.onrender.com" class="btn btn-primary btn-sm flex-fill" target="_blank"><i class="bi bi-box-arrow-up-right me-1"></i>Live Demo</a>
+                                <a href="https://github.com/jiyanshusingh/ab-testing-dashboard" class="btn btn-outline-primary btn-sm flex-fill" target="_blank"><i class="bi bi-github me-1"></i>Code</a>
+                            </div>
+                        </div>
+                    </div>
+                </div>
+                <div class="col-lg-4">
+                    <div class="card project-card h-100">
+                        <div class="card-body d-flex flex-column">
+                            <div class="project-icon"><i class="bi bi-graph-up-arrow"></i></div>
+                            <h5 class="card-title">AI Trading Engine</h5>
+                            <p class="card-text text-muted small flex-grow-1">ML-filtered trading system where XGBoost predicts P(trade net-profitable after costs). Turned a −₹225k simulated loss into +₹93k profit. Walk-forward OOS validated across 3 disjoint bull/bear windows. 6 parallel strategies on Google Cloud.</p>
+                            <div class="mb-3">
+                                <span class="tech-badge">XGBoost</span>
+                                <span class="tech-badge">Docker</span>
+                                <span class="tech-badge">GCP</span>
+                                <span class="tech-badge">PostgreSQL</span>
+                                <span class="tech-badge">FastAPI</span>
+                            </div>
+                            <div class="mt-auto d-flex gap-2">
+                                <a href="https://github.com/jiyanshusingh/trading-engine" class="btn btn-outline-primary btn-sm flex-fill" target="_blank"><i class="bi bi-github me-1"></i>Code</a>
+                            </div>
+                        </div>
+                    </div>
+                </div>
+                <div class="col-lg-4">
+                    <div class="card project-card h-100">
+                        <div class="card-body d-flex flex-column">
+                            <div class="project-icon"><i class="bi bi-house-door"></i></div>
+                            <h5 class="card-title">House Price Prediction</h5>
+                            <p class="card-text text-muted small flex-grow-1">Built and evaluated Linear Regression, Ridge, and Lasso models on a 15,000+ record housing dataset after data cleaning and feature engineering, achieving R² of 0.89.</p>
+                            <div class="mb-3">
+                                <span class="tech-badge">scikit-learn</span>
+                                <span class="tech-badge">pandas</span>
+                                <span class="tech-badge">Seaborn</span>
+                            </div>
+                            <div class="mt-auto d-flex gap-2">
+                                <a href="https://github.com/jiyanshusingh" class="btn btn-outline-primary btn-sm flex-fill" target="_blank"><i class="bi bi-github me-1"></i>Code</a>
+                            </div>
+                        </div>
+                    </div>
+                </div>
+            </div>
+        </div>
+    </section>
+
+    <section id="skills" class="section">
+        <div class="container">
+            <h2 class="section-title">Skills</h2>
+            <div class="row g-4">
+                <div class="col-md-4">
+                    <div class="skill-group">
+                        <h5><i class="bi bi-cpu me-2"></i>Machine Learning</h5>
+                        <span class="skill-badge">XGBoost</span>
+                        <span class="skill-badge">Regression</span>
+                        <span class="skill-badge">Classification</span>
+                        <span class="skill-badge">Clustering</span>
+                        <span class="skill-badge">Statistical Testing</span>
+                        <span class="skill-badge">Bayesian Methods</span>
+                        <span class="skill-badge">Power Analysis</span>
+                        <span class="skill-badge">Cross-Validation</span>
+                    </div>
+                </div>
+                <div class="col-md-4">
+                    <div class="skill-group">
+                        <h5><i class="bi bi-database me-2"></i>Data & Libraries</h5>
+                        <span class="skill-badge">Python</span>
+                        <span class="skill-badge">SQL</span>
+                        <span class="skill-badge">pandas</span>
+                        <span class="skill-badge">NumPy</span>
+                        <span class="skill-badge">SciPy</span>
+                        <span class="skill-badge">scikit-learn</span>
+                        <span class="skill-badge">Matplotlib</span>
+                        <span class="skill-badge">Seaborn</span>
+                    </div>
+                </div>
+                <div class="col-md-4">
+                    <div class="skill-group">
+                        <h5><i class="bi bi-tools me-2"></i>Tools & Platforms</h5>
+                        <span class="skill-badge">Docker</span>
+                        <span class="skill-badge">Docker Compose</span>
+                        <span class="skill-badge">GCP</span>
+                        <span class="skill-badge">FastAPI</span>
+                        <span class="skill-badge">Streamlit</span>
+                        <span class="skill-badge">Git</span>
+                        <span class="skill-badge">PostgreSQL</span>
+                        <span class="skill-badge">REST APIs</span>
+                    </div>
+                </div>
+            </div>
+        </div>
+    </section>
+
+    <section id="resume" class="section bg-dark-section">
+        <div class="container">
+            <h2 class="section-title">Resume</h2>
+            <p class="text-center text-muted mb-4">Download my full resume for detailed experience and qualifications.</p>
+            <div class="text-center">
+                <a href="assets/images/jiyanshu_resume.pdf" class="btn btn-primary btn-lg" download><i class="bi bi-download me-2"></i>Download Resume (PDF)</a>
+            </div>
+            <div class="row justify-content-center mt-4">
+                <div class="col-lg-8">
+                    <div class="card bg-dark border-secondary">
+                        <div class="card-body p-4 small text-white-50">
+                            <p class="fw-bold text-white mb-2">Quick Highlights</p>
+                            <ul class="list-unstyled mb-0">
+                                <li class="mb-1"><i class="bi bi-check-circle-fill text-primary me-2"></i>AI Intern at Digitaaztrans — built ML trading system on GCP</li>
+                                <li class="mb-1"><i class="bi bi-check-circle-fill text-primary me-2"></i>Live A/B Testing Dashboard: FastAPI + Bootstrap 5 + SciPy + Docker</li>
+                                <li class="mb-1"><i class="bi bi-check-circle-fill text-primary me-2"></i>38,500+ trades labeled for ML filter — walk-forward OOS validated</li>
+                                <li><i class="bi bi-check-circle-fill text-primary me-2"></i>NIT Rourkela B.Tech Biotechnology | CGPA 7.09</li>
+                            </ul>
+                        </div>
+                    </div>
+                </div>
+            </div>
+        </div>
+    </section>
+
+    <section id="contact" class="section">
+        <div class="container">
+            <h2 class="section-title">Contact</h2>
+            <div class="row justify-content-center">
+                <div class="col-lg-6">
+                    <div class="row g-3">
+                        <div class="col-sm-6">
+                            <a href="mailto:jiyanshusingh1@gmail.com" class="contact-card" target="_blank">
+                                <i class="bi bi-envelope-fill fs-3"></i>
+                                <p class="mb-0 mt-2">Email</p>
+                                <small>jiyanshusingh1@gmail.com</small>
+                            </a>
+                        </div>
+                        <div class="col-sm-6">
+                            <a href="https://github.com/jiyanshusingh" class="contact-card" target="_blank">
+                                <i class="bi bi-github fs-3"></i>
+                                <p class="mb-0 mt-2">GitHub</p>
+                                <small>@jiyanshusingh</small>
+                            </a>
+                        </div>
+                        <div class="col-sm-6">
+                            <a href="https://linkedin.com/in/jiyanshusingh" class="contact-card" target="_blank">
+                                <i class="bi bi-linkedin fs-3"></i>
+                                <p class="mb-0 mt-2">LinkedIn</p>
+                                <small>@jiyanshusingh</small>
+                            </a>
+                        </div>
+                        <div class="col-sm-6">
+                            <a href="tel:+918218608077" class="contact-card" target="_blank">
+                                <i class="bi bi-telephone-fill fs-3"></i>
+                                <p class="mb-0 mt-2">Phone</p>
+                                <small>+91 8218608077</small>
+                            </a>
+                        </div>
+                    </div>
+                </div>
+            </div>
+        </div>
+    </section>
+
+    <footer class="text-center py-4 text-muted border-top border-secondary">
+        <small>&copy; 2026 Jiyanshu Singh. Built with Bootstrap 5.</small>
+    </footer>
+
+    <script src="https://cdn.jsdelivr.net/npm/bootstrap@5.3.3/dist/js/bootstrap.bundle.min.js"></script>
+    <script src="assets/js/main.js"></script>
+</body>
+</html>
