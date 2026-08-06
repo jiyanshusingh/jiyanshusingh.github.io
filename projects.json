@@ -1,0 +1,61 @@
+[
+  {
+    "icon": "bi-bar-chart",
+    "title": "A/B Testing Dashboard",
+    "description": "Multi-page statistical analysis web app that analyzes experiment data and recommends Launch / Iterate / Kill using p-values, Bayesian Monte Carlo, power analysis, and sample size calculations. Generates consulting-grade PDF reports.",
+    "tech": ["FastAPI", "Bootstrap 5", "SciPy", "Docker", "Render"],
+    "links": [
+      {"url": "https://ab-testing-dashboard-1.onrender.com", "label": "Live Demo"},
+      {"url": "https://github.com/jiyanshusingh/ab-testing-dashboard", "label": "Code"}
+    ]
+  },
+  {
+    "icon": "bi-graph-up-arrow",
+    "title": "AI Trading Engine",
+    "description": "ML-filtered trading system where XGBoost predicts P(trade net-profitable after costs). Turned a −₹225k simulated loss into +₹93k profit. Walk-forward OOS validated across 3 disjoint bull/bear windows. 6 parallel strategies on Google Cloud.",
+    "tech": ["XGBoost", "Docker", "GCP", "PostgreSQL", "FastAPI"],
+    "links": [
+      {"url": "https://github.com/jiyanshusingh/trading-engine", "label": "Code"}
+    ]
+  },
+  {
+    "icon": "bi-database",
+    "title": "Peptide Hydrogel Prediction",
+    "description": "ML system predicting hydrogel formation from amino-acid sequences. Built RandomForest models (ROC-AUC 0.888 for amyloid classification, 0.72 for hydrogel), SHAP analysis, and a Flask portal for researcher use.",
+    "tech": ["Python", "ML", "Flask", "SHAP", "Docker", "Render"],
+    "links": [
+      {"url": "https://hydrogel-project.onrender.com", "label": "Live Demo"},
+      {"url": "https://github.com/jiyanshusingh/hydrogel_project", "label": "Code"}
+    ]
+  },
+  {
+    "icon": "bi-house-door",
+    "title": "Sales CRM Dashboard",
+    "description": "Full-stack CRM for managing sales leads with a dashboard featuring KPIs, funnel analysis, and revenue charts. Built with FastAPI backend and Bootstrap 5 + Plotly.js frontend. Supports CSV export and basic auth.",
+    "tech": ["FastAPI", "Bootstrap 5", "Plotly.js", "SQLAlchemy", "Docker", "Render"],
+    "links": [
+      {"url": "https://sales-dashboard-x5nm.onrender.com", "label": "Live Demo"},
+      {"url": "https://github.com/jiyanshusingh/sales_dashboard", "label": "Code"}
+    ]
+  },
+  {
+    "icon": "bi-receipt",
+    "title": "Invoice Generator",
+    "description": "SaaS-ready invoice generation service with PDF export, SQLAlchemy backend, and template-based rendering. Built with FastAPI and deployed with Docker.",
+    "tech": ["FastAPI", "SQLAlchemy", "ReportLab", "Docker", "Render"],
+    "links": [
+      {"url": "https://invoice-generator-pkgv.onrender.com", "label": "Live Demo"},
+      {"url": "https://github.com/jiyanshusingh/invoice-generator", "label": "Code"}
+    ]
+  },
+  {
+    "icon": "bi-filetype-tex",
+    "title": "Resume Builder Pro",
+    "description": "Gradio web app that generates ATS-friendly LaTeX resumes tailored to specific companies. Features PDF resume analysis, skill gap detection, ATS scoring, and optimization recommendations against company job-role profiles.",
+    "tech": ["Gradio", "Python", "LaTeX", "pdfplumber", "Matplotlib"],
+    "links": [
+      {"url": "https://resumebuilder-808x.onrender.com", "label": "Live Demo"},
+      {"url": "https://github.com/jiyanshusingh/ResumeBuilder", "label": "Code"}
+    ]
+  }
+]
